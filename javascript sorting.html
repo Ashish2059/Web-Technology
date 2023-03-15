@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+</body>
+<script>
+	var temp,ok;
+	let a=[];
+	a[0]=9;
+	a[1]=3;
+	a[2]=1;
+	for(i=0;i<3;i++)
+	{
+		ok=a[i];
+		for(j=0;j<3;j++)
+		{
+			if(a[i]<a[j])
+			{
+				temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+			}
+		}
+	}
+	console.log(a[0])
+	alert("The sorting number is"+" "+a[0]+" "+a[1]+" "+a[2]);
+</script>
+</html>

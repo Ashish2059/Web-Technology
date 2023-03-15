@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Images with Image Maps</title>
+</head>
+<body>
+ 
+
+  <img src="car.jpg" alt="Cars" height="120" width="120">
+  
+ <h3> client side Image map</h3>
+  <img src="nature.jpg" usemap="#map" height="240"  width="240">
+  <map name="map">
+    <area shape="rect" coords="0,0,472,542" href="https://www.nature.org/en-us/" alt="Google" target="_blank">
+  </map>
+ <h3>Server-Side Image Map Example</h3> <img src="fur.jpeg" usemap="#example" height="440" width="440">
+  <map name="example">
+    <area shape="rect" coords="0,0,160,170" href="https://www.google.com" target="_blank">
+    <area shape="circle" coords="0,0,400,400" href="https://www.bing.com" target="_blank">
+  </map>
+  
+
+</body>
+</html>

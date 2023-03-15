@@ -1,0 +1,14 @@
+.my-link {
+  color: blue; /* Default color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Link styles on hover */
+.my-link:hover {
+  color: red; /* Change color on hover */
+}
+
+/* Link styles on visited */
+.my-link:visited {
+  color: yellow; /* Change color on visited */
+}

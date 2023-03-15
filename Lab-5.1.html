@@ -1,0 +1,52 @@
+<!--
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo">
+<h4>Ashish Parajuli Lab 5.1</h4>
+<h2>The XMLHttpRequest and Retriving Data</h2>
+
+<button type="button" onclick="loadDoc()">Send Request</button>
+</div>
+
+<script>
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML =
+    this.responseText;
+  }
+  xhttp.open("GET", "ajax_info.txt");
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo">
+<h2>The XMLHttpRequest Object</h2>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML =
+    this.responseText;
+  }
+  xhttp.open("GET", "ajax_info.txt");
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
+

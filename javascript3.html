@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<p>Input radius value and get volume of sphere</p>
+	<div class="first">
+<label>Enter your radius</label><br>
+<input type="number"id="first">
+</div>
+<p>Volume</p>
+<div class="second">
+<input type="number"id="second">
+</div>
+<button onclick="callli()">Calculate</button>
+
+
+</body>
+<script>
+	function callli()
+	{
+	var first=document.getElementById("first").value;
+	var second=(4/3)*3.14*first*first*first;
+	
+document.getElementById("second").value=second;
+	
+
+	
+	
+}
+</script>
+</html>
